@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
- root 'sessions#home'
- get 'login', to: 'sessions#login'
+ root 'chatroom#index'
+ get 'login', to: 'sessions#new'
 end
